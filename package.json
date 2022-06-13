@@ -7,7 +7,7 @@
     "admin": "node ./admin/src/index.js",
     "backend": "node ./backend/index.js",
     "user": "node ./user/src/index.js",
-    "all": "npm-run-all --parallel backend user admin"
+    "all": "npm-run-all --parallel backend user"
   },
   "repository": {
     "type": "git",
