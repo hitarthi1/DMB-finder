@@ -1,0 +1,25 @@
+{
+  "name": "doctor_medical-store_bloodbank-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "admin": "node ./admin/src/index.js",
+    "backend": "node ./backend/index.js",
+    "user": "node ./user/src/index.js",
+    "all": "npm-run-all --parallel backend user admin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitarthi1/DMB-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hitarthi1/DMB-finder/issues"
+  },
+  "homepage": "https://github.com/hitarthi1/DMB-finder#readme",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
